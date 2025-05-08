@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 
 new_ip_adds = []
-urls = ["https://www.darklab.co"]
+urls = ["https://www.trifiletti.net"]
 for i in range(5):
     while i < 20:
         new_ip_adds.append((str(random.randint(3,8))+str(random.randint(3,8)))+"."+
